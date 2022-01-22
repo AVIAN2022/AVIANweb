@@ -77,9 +77,6 @@ var Application = function() {
 	this.refreshCheckContent = false;
 	this.refreshCheckContentSize = false;
 	var self = this;
-  (function() {
-    var canvas = document.getElementById('canvas'),
-            context = canvas.getContext('2d');
 
     // resize the canvas to fill browser window dynamically
     window.addEventListener('resize', resizeCanvas, false);
