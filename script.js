@@ -77,6 +77,9 @@ var Application = function() {
 	this.refreshCheckContent = false;
 	this.refreshCheckContentSize = false;
 	var self = this;
+  (function() {
+    var canvas = document.getElementById('canvas'),
+            context = canvas.getContext('2d');
 
     // resize the canvas to fill browser window dynamically
     window.addEventListener('resize', resizeCanvas, false);
@@ -166,11 +169,6 @@ var Application = function() {
 		//"addEventListener" in window ? null : window.addEventListener = window.attachEvent;
 		//"addEventListener" in document ? null : document.addEventListener = document.attachEvent;
 	}
-  $(document).mousemove(function(e){
-      $('.circle').css("top", e.pageY);
-      $('.circle').css("left", e.pageX);
-  });
-  var pointSize = $(".pointer").width()/2;
 
 	///////////////////////////////////////
 	// AUTO REFRESH 
