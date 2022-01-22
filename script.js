@@ -76,14 +76,6 @@ var Application = function() {
 	this.refreshContentSize = null;
 	this.refreshCheckContent = false;
 	this.refreshCheckContentSize = false;
-  const circle = document.querySelector(".circle");
-
-  document.addEventListener("mousemove", (e) => {
-      const mouseX = e.clientX;
-      const mouseY = e.clientY;
-      circle.style.left = mouseX + 'px';
-      circle.style.top = mouseY + 'px';
-  });
 	var self = this;
   (function() {
     var canvas = document.getElementById('canvas'),
