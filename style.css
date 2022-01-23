@@ -33,7 +33,7 @@ body {
 
 button{
   width: 328px;
-  height: 866.483px;
+  height: 850px;
   display: inline-block;
   vertical-align: middle;
   transform: perspective(1px) translateZ(0px);
@@ -41,6 +41,23 @@ button{
   transition-duration: 0.3s;
   transition-property: transform;
   transition-timing-function: ease-out;
+}
+.button_{
+  width: 812px;
+  height: 710px;
+}
+a{
+  width: 812px;
+  height: 710px;
+}
+.button_{
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0px);
+    box-shadow: rgba(0, 0, 0, 0) 0 0 1px;
+    position: relative;
+    transition-property: color;
+    transition-duration: 0.3s;
 }
 .hvr-float {
   display: inline-block;
@@ -269,7 +286,7 @@ body{
 #n_24 {
   position: absolute;
   width: 684px;
-  height: 945.484px;
+  height: 930.484px;
   left: 0px;
   top: 0px;
   overflow: visible;
