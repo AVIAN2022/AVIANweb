@@ -12,7 +12,6 @@ html, body {
 } /* just to be sure these are full screen*/
 body { 
   font-family: 'Noto Sans KR', sans-serif; 
-  font-family: 'Noto Sans KR', sans-serif; 
 }
 @font-face {
   font-family: 'GmarketSansLight';
@@ -30,6 +29,35 @@ body {
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Title.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+button{
+  width: 328px;
+  height: 866.483px;
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0px);
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 1px;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
 }
 canvas {
   display:block;
@@ -307,8 +335,8 @@ body{
 }
 #n_-_ {
   position: absolute;
-  width: 340px;
-  height: 856px;
+  width: 328px;
+  height: 866.473px;
   left: 0px;
   top: 0px;
   overflow: visible;
