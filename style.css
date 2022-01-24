@@ -56,24 +56,25 @@ button{
   display: inline-block;
   vertical-align: middle;
   transform: perspective(1px) translateZ(0px);
-  box-shadow: rgb(0 0 0 / 0%) 0px 0px 1px;
   transition-duration: 0.3s;
   transition-property: transform;
   transition-timing-function: ease-out;
+}
+#buttonunder{
+  width: 812px;
+  height: 710px;
 }
 .button_{
   width: 812px;
   height: 710px;
 }
 a{
-  width: 812px;
-  height: 710px;
+  color: rgb(0, 0, 0);
 }
 .button_{
     display: inline-block;
     vertical-align: middle;
     transform: perspective(1px) translateZ(0px);
-    box-shadow: rgba(0, 0, 0, 0) 0 0 1px;
     position: relative;
     transition-property: color;
     transition-duration: 0.3s;
@@ -83,7 +84,6 @@ a{
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
@@ -95,6 +95,22 @@ a{
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
 }
+.hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #ffffff;
+  color: white;
+}
+
 canvas {
   display:block;
   height: 100vh;
@@ -920,6 +936,7 @@ body{
   overflow: visible;
 }
 #n__2 {
+  mix-blend-mode: difference;
   position: absolute;
   width: 812px;
   height: 710px;
