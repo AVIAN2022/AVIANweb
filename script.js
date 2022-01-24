@@ -45,21 +45,12 @@
     function hello() {
       
   }
-    document.getElementById("#AVIan").addEventListener('click',hello);
-    document.getElementById("#n_-_").addEventListener('click',scrolldown);
-    document.getElementById("#n_-_b").addEventListener('click',scrolldown);
-    document.getElementById("#n__2").addEventListener('click',hello);
-    $("#n_-_").click(scrolldown);
+  ScrollReveal().reveal('.button_', {
+    distance: '100%',
+    origin: 'bottom',
+    duraiton: 500
+  });
 
-    ScrollReveal().reveal('.button_', {
-        distance: '100%',
-        origin: 'bottom',
-        duraiton: 500
-    });
-
-
-
-    $("#n_-_b").click(scrolldown);
     function scrolldown() {
         const offset = $("#AVIAN_2022___").offset();
         $('html, body').animate({
