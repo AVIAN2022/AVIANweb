@@ -51,7 +51,6 @@
     document.getElementById("#n__2").addEventListener('click',hello);
     $("#n_-_").click(scrolldown);
 
-
     ScrollReveal().reveal('.button_', {
         distance: '100%',
         origin: 'bottom',
