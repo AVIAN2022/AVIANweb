@@ -42,9 +42,7 @@
         duraiton: 500
     });
 
-    document
-        .getElementById("n_-_")
-        .addEventListener('click', scrolldown);
+    $("#AVIan").addEventListener('click', scrolldown);
     function scrolldown() {
         const offset = $("#AVIAN_2022___").offset();
         $('html, body').animate({
@@ -67,10 +65,7 @@
             scrollTop: offset.top - 80
         }, 1000);
     }
-
-    document
-        .getElementById("n__2")
-        .addEventListener('click', hello);
+    $("n__2").addEventListener('click', hello);
     function hello() {
         alert("안녕?");
     }
