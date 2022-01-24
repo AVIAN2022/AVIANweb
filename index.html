@@ -65,16 +65,16 @@
         </div>
 
         <div id="n_________________________AVIA" class="text">
-            <span>단편 영화, 애니메이션, 광고 영상 등..<br/>"광활한 프레임 위 광활한 예술"이라는 모토에 걸맞게 우리는 특정한 장르나 영역에 국한되지 않고 다양한 컨텐츠를 제작합니다.
+            <span>단편 영화, 애니메이션, 광고 영상 등..<br/>"광활한 프레임 위 광활한 예술"이라는 모토에 걸맞게 우리는 <mark>특정한 장르나 영역에 국한되지 않는</mark> 컨텐츠를 제작합니다.
                 <br/><br/>실제 AVIAN의 부원 중 일부 개인 유튜브 채널을 운영하며 각자 개성있는 컨텐츠를 제작 중에 있습니다. AVIAN 활동을
-                    통해 제작된 영상은 모두 "경기북과학고 AVIAN" 채널에서 확인할 수 있습니다.</span>
+                    통해 제작된 영상은 모두 <mark>"경기북과학고 AVIAN" 채널</mark>에서 확인할 수 있습니다.</span>
         </div>
         <div id="n_43">
             <div id="n_33">
                 <div id="n_24">
                     <div id="n_26" class="hvr-float">
                         <div id="n_19">
-                            <button type="button" class="button">
+                            <button type="button" class="button" onclick="hello()">
                                 <img id="AVIan" src="AVIan.png" srcset="AVIan.png 1x, AVIan@2x.png 2x">
                             </button>
                         </div>
@@ -85,7 +85,7 @@
 
                     </div>
                     <div id="n_21_" class="hvr-float">
-                        <button type="button" class="button">
+                        <button type="button" class="button" onclick="scrolldown()">
                             <img id="n_-_" src="n_-_.png" srcset="n_-_.png 1x, n_-_@2x.png 2x">
                         </button>
 
@@ -204,38 +204,100 @@
             <span>Supported by UNREVR</span>
         </div>
         <div class="endbutton">
-            <div id="n_47" class="hvr-float">
-
-                <button type="button1" class="button_">
-                    <img id="n_-_b" src="n_-_b.png" srcset="n_-_b.png 1x, n_-_b@2x.png 2x">
-                    <div id="AVIAN_2022">
-                        <span>AVIAN 2022</span>
-                    </div>
-                    <div id="n_">
-                        <span>다시 둘러보기</span>
-                    </div>
+            <div id="n_47">
+                <button type="button1" class="button_" onclick="scrolldown()">
+                    <a href="#" class="hvr-fade" id="buttonunder">
+                        <img id="n_-_b" src="n_-_b.png" srcset="n_-_b.png 1x, n_-_b@2x.png 2x">
+                        <div id="AVIAN_2022">
+                            <span>AVIAN 2022</span>
+                        </div>
+                        <div id="n_">
+                            <span>다시 둘러보기</span>
+                        </div>
+                    </a>
                 </button>
-
-
             </div>
-
-            <div id="n_46" class="hvr-float">
-
-                <button type="button1" class="button_">
-                    <img id="n__2" src="n__2.png" srcset="n__2.png 1x, n__2@2x.png 2x">
-                    <div id="n__">
-                        <span>이제, 당신의 차례</span>
-                    </div>
-                    <div id="AVIAN__b">
-                        <span>AVIAN 지원하기</span>
-                    </div>
+            <div id="n_46">
+                <button type="button1" class="button_" onclick="hello()"> 
+                    <a href="#" class="hvr-fade" id="buttonunder">
+                        <img id="n__2" src="n__2.png" srcset="n__2.png 1x, n__2@2x.png 2x">
+                        <div id="n__">
+                            <span>이제, 당신의 차례</span>
+                        </div>
+                        <div id="AVIAN__b">
+                            <span>AVIAN 지원하기</span>
+                        </div>
+                    </a>
                 </button>
-
             </div>
-
         </div>
     </div>
-
 </div>
+<script>
+        (function (document) {
+        const markers = [...document.querySelectorAll('mark')];
+        
+        const observer = new IntersectionObserver(entries => {
+          entries.forEach((entry) => {
+            if (entry.intersectionRatio > 0) {
+              entry.target.style.animationPlayState = 'running';
+              observer.unobserve(entry.target);
+            }
+          });
+        }, {
+          threshold: 0.8
+        });
+        
+        markers.forEach(mark => {
+          observer.observe(mark);
+        });
+      })(document);
+
+    ScrollReveal().reveal('.n_15_', {
+        distance: '40%',
+        origin: 'bottom',
+        duraiton: 500
+    });
+
+    ScrollReveal().reveal('.text', {
+        distance: '100%',
+        origin: 'bottom',
+        duraiton: 500
+    });
+
+
+    ScrollReveal().reveal('.button', {
+        distance: '100%',
+        origin: 'bottom',
+        duraiton: 500
+    });
+
+    function scrolldown() {
+      const offset = $("#AVIAN_2022___").offset();
+      $('html, body').animate({
+          scrollTop: offset.top - 80
+      }, 1000);
+    }
+    function hello() {
+      
+  }
+  ScrollReveal().reveal('.button_', {
+    distance: '100%',
+    origin: 'bottom',
+    duraiton: 500
+  });
+
+    function scrolldown() {
+        const offset = $("#AVIAN_2022___").offset();
+        $('html, body').animate({
+            scrollTop: offset.top - 80
+        }, 1000);
+    }
+    $("n__2").click(hello);
+    function hello() {
+        alert("안녕?");
+    }
+
+</script>
 </body>
 </html>
