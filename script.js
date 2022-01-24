@@ -60,9 +60,7 @@
 
 
 
-    document
-        .getElementById("n_-_b")
-        .addEventListener('click', scrolldown);
+    $("#n_-_b").addEventListener('click', scrolldown);
     function scrolldown() {
         const offset = $("#AVIAN_2022___").offset();
         $('html, body').animate({
