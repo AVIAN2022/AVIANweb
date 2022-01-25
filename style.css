@@ -641,11 +641,20 @@ body{
 }
 #n_36 {
   position: absolute;
-  width: 3187px;
-  height: 645.296px;
-  left: 0px;
-  top: 137px;
+  width: 200%;
+  height: 100%;
+  left: -1080px;
+  top: 0px;
   overflow: visible;
+  background-color: rgba(0, 0, 0, 0.049);
+}
+.slider {
+  position: absolute;
+  width: 1650px;
+  height: 645.296px;
+  left: 920px;
+  top: 180px;
+  overflow: hidden;
 }
 #n_34 {
   position: absolute;
