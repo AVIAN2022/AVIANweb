@@ -1,3 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.intro {
+  height: 100vh;
+}
+
+.intro video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.end{
+  height: 1000vh;
+}
+.intro h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: white;
+}
+
+section h1 {
+  padding-top: 0px;
+  text-align: center;
+  font-size: 80px;
+}
 .mediaViewInfo {
   --web-view-name: 웹 1920 – 2;
   --web-view-id: n_1920__2;
@@ -44,7 +80,9 @@ mark {
   animation-fill-mode: forwards;
   animation-play-state: paused;
 }
-
+spacer{
+  min-height: 1px;
+}
 @keyframes highlight {
   to {
     background-size: 100% var(--bg-height);
@@ -111,6 +149,17 @@ a{
   color: white;
 }
 
+.intro {
+  height: 100vh;
+}
+section{
+  height: 0vh;
+}
+.intro video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 canvas {
   display:block;
   height: 100vh;
@@ -128,7 +177,7 @@ canvas {
 #n_1920__2 {
   position: absolute;
   width: 1920px;
-  height: 8147px;
+  height: 7047px;
   background-color: rgba(255,255,255,1);
   overflow: hidden;
   --web-view-name: 웹 1920 – 2;
@@ -149,7 +198,7 @@ body{
   position: absolute;
   overflow: visible;
   width: 1900px;
-  height: 7156px;
+  height: 6076px;
   left: 0px;
   top: 0px;
 }
@@ -181,7 +230,7 @@ body{
 }
 #AVIAN_2022___ {
   left: 140px;
-  top: 2398.5px;
+  top: 1200.5px;
   position: absolute;
   overflow: visible;
   width: 732px;
@@ -197,7 +246,7 @@ body{
 }
 #n_____AVI__an___AVIAN____AVIAN {
   left: 140px;
-  top: 2629px;
+  top: 1400px;
   position: absolute;
   overflow: visible;
   width: 750px;
@@ -226,12 +275,12 @@ body{
   width: 788px;
   height: 443px;
   left: 960px;
-  top: 2629px;
+  top: 1400px;
 }
 #n_2 {
   overflow: visible;
   position: absolute;
-  width: 1900px;
+  width: 1920px;
   height: 1080px;
   left: 0px;
   top: 0px;
@@ -242,7 +291,7 @@ body{
   width: 1920px;
   height: 1080px;
   left: -10px;
-  top: 3480px;
+  top: 2340px;
   overflow: visible;
 }
 #Comp_2_1 {
@@ -272,7 +321,7 @@ body{
 }
 #n____ {
   left: 1244px;
-  top: 3446px;
+  top: 2306px;
   position: absolute;
   overflow: visible;
   width: 539px;
@@ -288,7 +337,7 @@ body{
 }
 #n_________________________AVIA {
   left: 1052px;
-  top: 3645px;
+  top: 2505px;
   position: absolute;
   overflow: visible;
   width: 729px;
@@ -307,7 +356,7 @@ body{
   width: 1375px;
   height: 945.484px;
   left: 262px;
-  top: 1199.258px;
+  top: 100.258px;
   overflow: visible;
 }
 #n_33 {
@@ -486,10 +535,10 @@ body{
 }
 #n_40_ba {
   position: absolute;
-  width: 1920px;
-  height: 1078px;
-  left: 0px;
-  top: 5076px;
+  width: 720px;
+  height: 480px;
+  left: 500px;
+  top: 3876px;
   overflow: visible;
 }
 #Comp_3 {
@@ -522,7 +571,7 @@ body{
   width: 674px;
   height: 597px;
   left: 140px;
-  top: 4777px;
+  top: 3777px;
   overflow: visible;
 }
 #AVIAN___After_Effect_Premiere_ {
@@ -562,7 +611,7 @@ body{
   width: 3187px;
   height: 782.296px;
   left: -776.5px;
-  top: 6088px;
+  top: 5088px;
   overflow: visible;
 }
 #n_31 {
@@ -785,7 +834,7 @@ body{
 }
 #aviangbshsgmailcom {
   left: 140px;
-  top: 7992px;
+  top: 6822px;
   position: absolute;
   overflow: visible;
   width: 899px;
@@ -799,7 +848,7 @@ body{
 }
 #n_2_010-2940-9430 {
   left: 140px;
-  top: 8054px;
+  top: 6882px;
   position: absolute;
   overflow: visible;
   width: 707px;
@@ -809,22 +858,6 @@ body{
   font-style: normal;
   font-weight: lighter;
   font-size: 35px;
-  color: rgba(0,0,0,1);
-}
-#letmebesensitiveplz {
-  left: 140px;
-  top: 8070px;
-  position: absolute;
-  overflow: visible;
-  width: 342px;
-  white-space: nowrap;
-  line-height: 70px;
-  margin-top: -20px;
-  text-align: left;
-  font-family: Gmarket Sans;
-  font-style: normal;
-  font-weight: lighter;
-  font-size: 10px;
   color: rgba(0,0,0,1);
 }
 #n_2_bz {
@@ -842,12 +875,12 @@ body{
   width: 1650px;
   height: 1px;
   left: 135px;
-  top:8100.5px;
+  top:7000.5px;
   transform: matrix(1,0,0,1,0,0);
 }
 #Developed_by_AVIAN {
   left: 140px;
-  top: 8112px;
+  top: 7012px;
   position: absolute;
   overflow: visible;
   width: 329px;
@@ -863,7 +896,7 @@ body{
 }
 #Supported_by_UNREVR {
   left: 1538px;
-  top: 8112px;
+  top: 7012px;
   position: absolute;
   overflow: visible;
   width: 369px;
@@ -882,7 +915,7 @@ body{
   width: 812px;
   height: 710px;
   left: 140px;
-  top: 7263px;
+  top: 6103px;
   overflow: visible;
 }
 #n_-_b {
@@ -932,7 +965,7 @@ body{
   width: 812px;
   height: 710px;
   left: 968px;
-  top: 7263px;
+  top: 6103px;
   overflow: visible;
 }
 #n__2 {
