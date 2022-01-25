@@ -54,6 +54,10 @@ body {
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-family: 'ONE-Mobile-Title';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Title.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
@@ -61,10 +65,7 @@ body {
  font-family: 'Noto Sans KR', sans-serif;
 }
 @font-face {
-  font-family: 'ONE-Mobile-Title';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Title.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+
 }
 mark {
   --color1: rgba(255, 255, 255, 0.4);
@@ -238,7 +239,7 @@ body{
   line-height: 84px;
   margin-top: -4.5px;
   text-align: left;
-  font-family: ONE Mobile Title;
+  font-family: 'ONE-Mobile-Title';
   font-style: normal;
   font-weight: bold;
   font-size: 75px;
@@ -329,7 +330,7 @@ body{
   line-height: 84px;
   margin-top: -4.5px;
   text-align: right;
-  font-family: ONE Mobile Title;
+  font-family: 'ONE-Mobile-Title';
   font-style: normal;
   font-weight: normal;
   font-size: 75px;
@@ -465,7 +466,7 @@ body{
   width: 646px;
   white-space: nowrap;
   text-align: left;
-  font-family: ONE Mobile Title;
+  font-family: 'ONE-Mobile-Title';
   font-style: normal;
   font-weight: normal;
   font-size: 70px;
@@ -600,7 +601,7 @@ body{
   line-height: 84px;
   margin-top: -4.5px;
   text-align: left;
-  font-family: ONE Mobile Title;
+  font-family: 'ONE-Mobile-Title';
   font-style: normal;
   font-weight: normal;
   font-size: 75px;
@@ -632,7 +633,7 @@ body{
   line-height: 60px;
   margin-top: -20.5px;
   text-align: left;
-  font-family: ONE Mobile Title;
+  font-family: 'ONE-Mobile-Title';
   font-style: normal;
   font-weight: bold;
   font-size: 29px;
@@ -840,7 +841,7 @@ body{
   width: 899px;
   white-space: nowrap;
   text-align: left;
-  font-family: Gmarket Sans;
+  font-family: 'GmarketSansLight';
   font-style: normal;
   font-weight: lighter;
   font-size: 50px;
@@ -854,7 +855,7 @@ body{
   width: 707px;
   white-space: nowrap;
   text-align: left;
-  font-family: Gmarket Sans;
+  font-family:'GmarketSansLight';
   font-style: normal;
   font-weight: lighter;
   font-size: 35px;
@@ -888,7 +889,7 @@ body{
   line-height: 70px;
   margin-top: -20px;
   text-align: left;
-  font-family: Gmarket Sans;
+  font-family:'GmarketSansLight';
   font-style: normal;
   font-weight: lighter;
   font-size: 20px;
@@ -904,7 +905,7 @@ body{
   line-height: 70px;
   margin-top: -20px;
   text-align: left;
-  font-family: Gmarket Sans;
+  font-family:'GmarketSansLight';
   font-style: normal;
   font-weight: lighter;
   font-size: 20px;
@@ -938,7 +939,7 @@ body{
   line-height: 70px;
   margin-top: -5px;
   text-align: left;
-  font-family: ONE Mobile Title;
+  font-family: 'ONE-Mobile-Title';
   font-style: normal;
   font-weight: bold;
   font-size: 60px;
@@ -986,7 +987,7 @@ body{
   width: 522px;
   white-space: nowrap;
   text-align: right;
-  font-family: ONE Mobile Title;
+  font-family: 'ONE-Mobile-Title';
   font-style: normal;
   font-weight: normal;
   font-size: 70px;
