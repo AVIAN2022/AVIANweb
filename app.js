@@ -26,7 +26,7 @@ scene.on("update", e => {
 });
 
 setInterval(() => {
-    delay += (scrollpos - delay);
+    delay += (scrollpos - delay)*accelamount;
 
     video.currentTime = delay;
 }, 33.3);
@@ -81,12 +81,14 @@ let innerSlider = document.querySelector(".innerslider");
 let pressed = false;
 let startx;
 let x;
+let scrolldelay;
+let value = document.documentElement.scrollTop;
 slider.addEventListener("mousedown", e => {
     pressed = true;
     startx = e.offsetX - innerSlider.offsetLeft;
     slider.style.cursor = "grabbing";
 });
-
+scrolldelay +=(startx-scrolldelay)*accelamount;
 slider.addEventListener("mouseenter", () => {
     slider.style.cursor = "grab";
 });
@@ -104,11 +106,19 @@ slider.addEventListener("mousemove", e => {
         return;
     e.preventDefault();
     x = e.offsetX;
-
+    
     innerSlider.style.left = `${x - startx}px`;
     checkboundary();
 });
-
+function middlego(){
+    innerSlider.style.left = '-840px';
+}
+function leftgo(){
+    innerSlider.style.left = '0px';
+}
+function rightgo(){
+    innerSlider.style.left = '-1420px';
+}
 function checkboundary() {
     let outer = slider.getBoundingClientRect();
     let inner = innerSlider.getBoundingClientRect();

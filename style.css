@@ -61,6 +61,12 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'SUIT-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 .notosanskr * { 
@@ -197,8 +203,71 @@ body{
 ::-webkit-scrollbar {
   display: none; 
 }
+#left{
+  z-index:1000;
+}
 #n_23 {
   fill: rgba(0,0,0,1);
+}
+#n_48 {
+  position: relative;
+  width: 122px;
+  height: 24px;
+  left: 0px;
+  top: 100%;
+  overflow: visible;
+  margin: 0 auto;
+}
+#c1 {
+  fill: rgba(255,255,255,1);
+  stroke: rgba(112,112,112,1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.c1 {
+  position: absolute;
+  overflow: visible;
+  width: 24px;
+  height: 24px;
+  left: 49px;
+  top: 0px;
+}
+#c2 {
+  fill: rgba(255,255,255,1);
+  stroke: rgba(112,112,112,1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.c2 {
+  position: absolute;
+  overflow: visible;
+  width: 24px;
+  height: 24px;
+  left: 98px;
+  top: 0px;
+}
+#c3 {
+  fill: rgba(255,255,255,1);
+  stroke: rgba(112,112,112,1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.c3 {
+  position: absolute;
+  overflow: visible;
+  width: 24px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
 }
 .n_23 {
   position: absolute;
@@ -246,7 +315,6 @@ body{
   text-align: left;
   font-family: 'ONE-Mobile-Title';
   font-style: normal;
-  font-weight: bold;
   font-size: 75px;
   color: rgba(255,255,255,1);
 }
@@ -260,7 +328,7 @@ body{
   line-height: 33px;
   margin-top: -2.5px;
   text-align: left;
-  font-family: Noto Sans KR;
+  font-family: 'SUIT-Medium';
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -351,7 +419,7 @@ body{
   line-height: 28px;
   margin-top: -2.5px;
   text-align: right;
-  font-family: Noto Sans KR;
+  font-family: 'SUIT-Medium';
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -426,7 +494,7 @@ body{
   white-space: nowrap;
   line-height: 40px;
   text-align: left;
-  font-family: Noto Sans KR black;
+  font-family: 'SUIT-Medium';
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -457,9 +525,9 @@ body{
   white-space: nowrap;
   line-height: 40px;
   text-align: left;
-  font-family: Noto Sans KR Black;
+  font-family: 'SUIT-Medium';
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 40px;
   color: rgba(0,0,0,1);
 }
@@ -591,7 +659,7 @@ body{
   line-height: 33px;
   margin-top: -2.5px;
   text-align: left;
-  font-family: Noto Sans KR;
+  font-family: 'SUIT-Medium';
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -614,18 +682,18 @@ body{
   color: rgba(255,255,255,1);
 }
 #n_45 {
-  position: absolute;
-  width: 3187px;
+  position: relative;
+  width: 1800px;
   height: 782.296px;
-  left: -776.5px;
   top: 5088px;
   overflow: visible;
+  margin: 0 auto;
 }
 #n_31 {
   position: absolute;
   width: 515px;
   height: 117px;
-  left: 919.5px;
+  left: 0%;
   top: 0px;
   overflow: visible;
 }
@@ -649,18 +717,19 @@ body{
   position: absolute;
   width: 200%;
   height: 100%;
-  left: -1080px;
+  left: -840px;
   top: 0px;
-  overflow: visible;
+  overflow: scroll;
+  z-index: 1;
   background-color: rgba(0, 0, 0, 0.049);
 }
 .slider {
   position: absolute;
-  width: 1650px;
+  width: 1800px;
   height: 645.296px;
-  left: 920px;
-  top: 180px;
-  overflow: hidden;
+  left: 0px;
+  top: 120px;
+  overflow: scroll;
 }
 #n_34 {
   position: absolute;
@@ -968,7 +1037,7 @@ body{
   line-height: 70px;
   margin-top: -20px;
   text-align: left;
-  font-family: Noto Sans KR black;
+  font-family: 'SUIT-Medium' black;
   font-style: normal;
   font-weight: lighter;
   font-size: 20px;
@@ -1017,7 +1086,7 @@ body{
   line-height: 70px;
   margin-top: -20px;
   text-align: left;
-  font-family: Noto Sans KR black;
+  font-family: 'SUIT-Medium' black;
   font-style: normal;
   font-weight: lighter;
   font-size: 20px;
