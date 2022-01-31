@@ -15,7 +15,7 @@ body {
 .intro video {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit:contain;
 }
 .end{
   height: 1000vh;
@@ -62,6 +62,12 @@ body {
   font-style: normal;
 }
 @font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'SUIT-Medium';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
   font-weight: normal;
@@ -93,25 +99,6 @@ spacer{
   to {
     background-size: 100% var(--bg-height);
   }
-}
-button{
-  width: 328px;
-  height: 850px;
-  display: inline-block;
-  vertical-align: middle;
-  transform: perspective(1px) translateZ(0px);
-  transition-duration: 0.3s;
-  transition-property: transform;
-  transition-timing-function: ease-out;
-}
-#buttonunder{
-  width: 812px;
-  height: 710px;
-}
-#buttonupper{
-  width: 100px;
-  height: 100px;
-  background-color: black;
 }
 
 .button_{
@@ -188,9 +175,9 @@ canvas {
 }
 #n_1920__2 {
   position: absolute;
-  width: 1920px;
-  height: 7047px;
-  background-color: rgba(255,255,255,1);
+  width: 100%;
+  height: 7000px;
+  background-color: rgb(0, 0, 0);
   overflow: hidden;
   --web-view-name: 웹 1920 – 2;
   --web-view-id: n_1920__2;
@@ -202,9 +189,6 @@ body{
   }
 ::-webkit-scrollbar {
   display: none; 
-}
-#left{
-  z-index:1000;
 }
 #n_23 {
   fill: rgba(0,0,0,1);
@@ -281,6 +265,7 @@ body{
   fill: rgba(0,0,0,0);
   stroke: rgba(255,255,255,1);
   stroke-width: 1px;
+
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
@@ -303,54 +288,8 @@ body{
   top: 388px;
   overflow: visible;
 }
-#AVIAN_2022___ {
-  left: 140px;
-  top: 1200.5px;
-  position: absolute;
-  overflow: visible;
-  width: 732px;
-  white-space: nowrap;
-  line-height: 84px;
-  margin-top: -4.5px;
-  text-align: left;
-  font-family: 'ONE-Mobile-Title';
-  font-style: normal;
-  font-size: 75px;
-  color: rgba(255,255,255,1);
-}
-#n_____AVI__an___AVIAN____AVIAN {
-  left: 140px;
-  top: 1400px;
-  position: absolute;
-  overflow: visible;
-  width: 750px;
-  height: 373px;
-  line-height: 33px;
-  margin-top: -2.5px;
-  text-align: left;
-  font-family: 'SUIT-Medium';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  color: rgba(255,255,255,1);
-}
-#n_15 {
-  fill: rgba(0,0,0,1);
-  stroke: rgba(112,112,112,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.n_15 {
-  position: absolute;
-  overflow: visible;
-  width: 788px;
-  height: 443px;
-  left: 960px;
-  top: 1400px;
-}
+
+
 #n_2 {
   overflow: visible;
   position: absolute;
@@ -360,14 +299,7 @@ body{
   top: 0px;
   transform: matrix(1,0,0,1,0,0);
 }
-#n_40 {
-  position: absolute;
-  width: 1920px;
-  height: 1080px;
-  left: -10px;
-  top: 2340px;
-  overflow: visible;
-}
+
 #Comp_2_1 {
   fill: transparent;
 }
@@ -393,158 +325,30 @@ body{
   left: 0px;
   top: 0px;
 }
-#n____ {
-  left: 1244px;
-  top: 2306px;
-  position: absolute;
-  overflow: visible;
-  width: 539px;
-  white-space: nowrap;
-  line-height: 84px;
-  margin-top: -4.5px;
-  text-align: right;
-  font-family: 'ONE-Mobile-Title';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 75px;
-  color: rgba(255,255,255,1);
-}
-#n_________________________AVIA {
-  left: 1052px;
-  top: 2505px;
-  position: absolute;
-  overflow: visible;
-  width: 729px;
-  height: 373px;
-  line-height: 28px;
-  margin-top: -2.5px;
-  text-align: right;
-  font-family: 'SUIT-Medium';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  color: rgba(255,255,255,1);
-}
+
+
 #n_43 {
-  position: absolute;
-  width: 1375px;
+  position: relative;
+  width: 100%;
   height: 945.484px;
-  left: 262px;
-  top: 100.258px;
+  top: 150.258px;
   overflow: visible;
 }
 #n_33 {
-  position: absolute;
-  width: 1375px;
+  position: relative;
+  width: 680px;
   height: 945.484px;
   left: 0px;
   top: 0px;
+  margin: 0 auto;
   overflow: visible;
 }
-#n_24 {
-  position: absolute;
-  width: 684px;
-  height: 930.484px;
-  left: 0px;
-  top: 0px;
-  overflow: visible;
-}
-#n_26 {
-  position: absolute;
-  width: 328px;
-  height: 866.484px;
-  left: 0px;
-  top: 79px;
-  overflow: visible;
-}
-#n_19 {
-  position: absolute;
-  width: 328px;
-  height: 866.484px;
-  left: 0px;
-  top: 0px;
-  overflow: visible;
-}
-#n_- {
-  fill: rgba(255,255,255,1);
-}
-.n_- {
-  position: absolute;
-  overflow: visible;
-  width: 328px;
-  height: 866.483px;
-  left: 0px;
-  top: 0px;
-}
-#AVIan {
-  opacity: 0.6;
-  position: absolute;
-  width: 328px;
-  height: 866.483px;
-  left: 0px;
-  top: 0px;
-  overflow: visible;
-}
-#n_022_AVIAN_ {
-  left: 19.5px;
-  top: 23px;
-  position: absolute;
-  overflow: visible;
-  width: 274px;
-  white-space: nowrap;
-  line-height: 40px;
-  text-align: left;
-  font-family: 'SUIT-Medium';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  color: rgba(0,0,0,1);
-}
-#n_21_ {
-  position: absolute;
-  width: 340px;
-  height: 856px;
-  left: 344px;
-  top: 0px;
-  overflow: visible;
-}
-#n_-_ {
-  position: absolute;
-  width: 328px;
-  height: 866.473px;
-  left: 0px;
-  top: 0px;
-  overflow: visible;
-}
-#AVIAN_ {
-  left: 19px;
-  top: 20px;
-  position: absolute;
-  overflow: visible;
-  width: 233px;
-  white-space: nowrap;
-  line-height: 40px;
-  text-align: left;
-  font-family: 'SUIT-Medium';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  color: rgba(0,0,0,1);
-}
-#n_____ {
-  left: 706px;
-  top: 143.742px;
-  position: absolute;
-  overflow: visible;
-  width: 646px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'ONE-Mobile-Title';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 70px;
-  color: rgba(255,255,255,1);
-  text-transform: uppercase;
+#First{
+  width: 680px;
+  height: 800px;
+  position:relative;
+  top:500px;
+  margin: 0 auto;
 }
 #n_1 {
   fill: transparent;
@@ -557,21 +361,261 @@ body{
 }
 .n_1 {
   overflow: visible;
-  position: absolute;
-  width: 677px;
+  position: relative;
+  width: 670px;
+  float: right;
   height: 1px;
-  left: 698px;
-  top: 312.742px;
+  top: 450px;
+  left:-10px;
   transform: matrix(1,0,0,1,0,0);
 }
+#n_____ {
+  top: 143.742px;
+  position: relative;
+  overflow: visible;
+  width: 680px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: 'ONE-Mobile-Title';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  color: rgba(255,255,255,1);
+  text-transform: uppercase;
+}
 #n_42 {
-  position: absolute;
+  position: relative;
   width: 276px;
   height: 138px;
-  left: 690px;
-  top: 354.742px;
+  top:470px;
   overflow: visible;
 }
+#AVIAN_2022___ {
+  top: 0px;
+  position: relative;
+  overflow: visible;
+  width: 688px;
+  white-space: nowrap;
+  line-height: 64px;
+  margin-top: -6.5px;
+  text-align: left;
+  font-family: 'ONE-Mobile-Title';
+  font-style: normal;
+  font-size: 65px;
+  color: rgba(255,255,255,1);
+}
+#n_____AVI__an___AVIAN____AVIAN {
+  left: 0px;
+  top: 500px;
+  position: relative;
+  overflow: visible;
+  width: 670px;
+  height: 373px;
+  line-height: 30px;
+  margin-top: -2.5px;
+  text-align: left;
+  font-family: 'SUIT-Medium';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  color: rgba(255,255,255,1);
+}
+#n_15 {
+  fill: rgba(0,0,0,1);
+  stroke: rgba(112,112,112,1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.n_15 {
+  position: relative;
+  overflow: visible;
+  width: 670px;
+  height: 443px;
+  top:-330px;
+  margin: 0 auto;
+  clear: both;
+}
+
+
+.Second{
+  position: relative;
+width: 680px;
+height: 1000px;
+top: 1000px;
+margin: 0 auto;
+}
+.second{
+  display: inline-block;
+  position: relative;
+  overflow: visible;
+  z-index:100;
+  width: 788px;
+  height: 443px;
+  float: right;
+  clear: both;
+}
+
+#n____ {
+  float: right;
+  position: relative;
+  overflow: visible;
+  width: 680px;
+  white-space: nowrap;
+  line-height: 70px;
+  margin-top: -4.5px;
+  text-align: left;
+  font-family: 'ONE-Mobile-Title';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  color: rgba(255,255,255,1);
+}
+#n_________________________AVIA {
+float: right;
+  top: 350px;
+  position: relative;
+  overflow: visible;
+  width: 680px;
+  height: 373px;
+  line-height: 28px;
+  margin-top: -2.5px;
+  text-align: left;
+  font-family: 'SUIT-Medium';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  color: rgba(255,255,255,1);
+}
+
+#n_40 {
+  position: relative;
+  width: 100%;
+  top: -320px;
+  z-index: -100px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+#n_26 {
+  position: absolute;
+  width: 328px;
+  height: 760.484px;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+button{
+  width: 328px;
+  height: 820.484px;
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0px);
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+#buttonunder{
+  width: 812px;
+  height: 710px;
+}
+#buttonupper{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.n_- {
+  position: absolute;
+  overflow: hidden;
+  width: 328px;
+  height: 820.483px;
+  left: 0px;
+  top: 0px;
+}
+#n_21_ {
+  position: absolute;
+  width: 328px;
+  height: 760.484px;
+  left: 344px;
+  top: 0px;
+  overflow: hidden;
+}
+#n_19 {
+  position: absolute;
+  width: 328px;
+  height: 820.484px;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+
+#n_-_ {
+  position: absolute;
+  width: 328px;
+  height: 820.473px;
+  left: 0px;
+  top: -400px;
+  overflow: hidden;
+}
+
+#n_- {
+  fill: rgba(255,255,255,1);
+}
+
+#AVIan {
+  opacity: 0.6;
+  position: absolute;
+  width: 328px;
+  height: 866.483px;
+  left: 0px;
+  top: -300px;
+  overflow: visible;
+}
+#n_022_AVIAN_ {
+  left: 19.5px;
+  top: 23px;
+  position: absolute;
+  overflow: visible;
+  width: 274px;
+  white-space: nowrap;
+  line-height: 35px;
+  text-align: left;
+  font-family: 'GmarketSansBold';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+
+
+#AVIAN_ {
+  left: 19px;
+  top: 20px;
+  position: absolute;
+  overflow: visible;
+  width: 233px;
+  white-space: nowrap;
+  line-height: 35px;
+  text-align: left;
+  font-family: 'GmarketSansBold';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#n_24 {
+  position: absolute;
+  width: 684px;
+  height: 400px;
+  left: 0px;
+  top: 300px;
+  overflow: hidden;
+}
+
+
 #pngwingcom {
   mix-blend-mode: difference;
   position: absolute;
@@ -598,7 +642,7 @@ body{
   width: 135px;
   height: 135px;
   left: 0px;
-  top: 2px;
+  top: 100px;
 }
 #kakaotalk_black_logo_icon_1471 {
   position: absolute;
@@ -609,12 +653,13 @@ body{
   overflow: visible;
 }
 #n_40_ba {
-  position: absolute;
-  width: 720px;
-  height: 480px;
-  left: 500px;
-  top: 3876px;
-  overflow: visible;
+  mix-blend-mode: difference;
+  position: relative;
+  width: 1080px;
+  left:-100px;
+  top:-300px;
+  height: auto;
+  margin:0 auto;
 }
 #Comp_3 {
   fill: transparent;
@@ -642,19 +687,24 @@ body{
   top: 0px;
 }
 #n_44 {
-  position: absolute;
+  position: relative;
   width: 674px;
   height: 597px;
-  left: 140px;
-  top: 3777px;
   overflow: visible;
+}
+#Third{
+  position: relative;
+  width: 684px;
+  height: 1000px;
+  top:1300px;
+  margin:0 auto;
 }
 #AVIAN___After_Effect_Premiere_ {
   left: 0px;
-  top: 224px;
-  position: absolute;
+  top:50px;
+  position: relative;
   overflow: visible;
-  width: 675px;
+  width: 670px;
   height: 373px;
   line-height: 33px;
   margin-top: -2.5px;
@@ -662,30 +712,28 @@ body{
   font-family: 'SUIT-Medium';
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 19px;
   color: rgba(255,255,255,1);
 }
 #n___ {
-  left: 0px;
-  top: 0px;
-  position: absolute;
+  position: relative;
   overflow: visible;
   width: 662px;
   white-space: nowrap;
-  line-height: 84px;
+  line-height: 70px;
   margin-top: -4.5px;
   text-align: left;
   font-family: 'ONE-Mobile-Title';
   font-style: normal;
   font-weight: normal;
-  font-size: 75px;
+  font-size: 65px;
   color: rgba(255,255,255,1);
 }
 #n_45 {
   position: relative;
-  width: 1800px;
+  width: 684px;
   height: 782.296px;
-  top: 5088px;
+  top: 1358px;
   overflow: visible;
   margin: 0 auto;
 }
@@ -714,22 +762,20 @@ body{
   color: rgba(255,255,255,1);
 }
 #n_36 {
-  position: absolute;
+  position: relative;
   width: 200%;
   height: 100%;
   left: -840px;
   top: 0px;
-  overflow: scroll;
-  z-index: 1;
   background-color: rgba(0, 0, 0, 0.049);
 }
 .slider {
   position: absolute;
-  width: 1800px;
+  width: 684px;
   height: 645.296px;
   left: 0px;
   top: 120px;
-  overflow: scroll;
+  overflow: hidden;
 }
 #n_34 {
   position: absolute;
@@ -1091,4 +1137,325 @@ body{
   font-weight: lighter;
   font-size: 20px;
   color: rgba(255,255,255,1);
+}
+
+@media screen and (min-width:1500px) {
+  #n_____ {
+    top: 143.742px;
+    position: relative;
+    overflow: visible;
+    width: 680px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: 'ONE-Mobile-Title';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    color: rgba(255,255,255,1);
+    text-transform: uppercase;
+  }
+  #n_____ {  
+    float: right;
+    top: 143.742px;
+    position: relative;
+    overflow: visible;
+    width: 680px;
+    white-space: nowrap;
+    text-align: left;
+  }
+  #n_24 {
+    position: absolute;
+    
+    height: 760.474px;
+    width: 672px;
+    top: 100px;
+    left: 0px;
+    overflow: hidden;
+  }
+  #n_42 {
+    position: relative;
+    width: 276px;
+    height: 138px;
+    top:30px;
+    overflow: visible;
+  }
+  #n_1 {
+    fill: transparent;
+    stroke: rgba(255,255,255,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+  }
+  .n_1 {
+    overflow: visible;
+    position: relative;
+    
+  top: 0px;
+    width: 677px;
+    float: right;
+    height: 1px;
+    margin-top: 10px;
+    transform: matrix(1,0,0,1,0,0);
+  }
+  #n_-_ {
+    position: absolute;
+    width: 328px;
+    height: 820.473px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+  }
+  #AVIan {
+    opacity: 0.6;
+    position: absolute;
+    width: 328px;
+    height: 866.483px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+  #n_43 {
+    position: relative;
+    width: 100%;
+    height: 945.484px;
+    top: 150.258px;
+    overflow: visible;
+    margin:0 auto;
+  }
+  #n_33 {
+    position: relative;
+    width: 1375px;
+    height: 945.484px;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: visible;
+  }
+  #AVIAN_2022___ {
+    top: 0px;
+    position: relative;
+    overflow: visible;
+    width: 688px;
+    white-space: nowrap;
+    line-height: 64px;
+    margin-top: -6.5px;
+    text-align: left;
+    font-family: 'ONE-Mobile-Title';
+    font-style: normal;
+    font-size: 65px;
+    color: rgba(255,255,255,1);
+  }
+  #n_____AVI__an___AVIAN____AVIAN {
+    left: 0px;
+    top: 50px;
+    position: relative;
+    overflow: visible;
+    width: 670px;
+    height: 373px;
+    line-height: 35px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: 'SUIT-Medium';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    color: rgba(255,255,255,1);
+  }
+  #n_15 {
+    fill: rgba(0,0,0,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+  }
+  .n_15 {
+    position: relative;
+    overflow: visible;
+    width: 670px;
+    height: 443px;
+    top:-330px;
+    float: right;
+  }
+  #First{
+    width: 1390px;
+    height: 800px;
+    position:relative;
+    top:500px;
+    margin: 0 auto;
+  }
+  .Second{
+    position: relative;
+  width: 1375px;
+  height: 1000px;
+  top: 800px;
+  margin: 0 auto;
+  }
+  .second{
+    display: inline-block;
+    position: relative;
+    overflow: visible;
+    z-index:100;
+    width: 788px;
+    height: 443px;
+    float: right;
+    clear: both;
+  }
+  #n____ {
+    float: right;
+    position: relative;
+    overflow: visible;
+    width: 539px;
+    white-space: nowrap;
+    line-height: 70px;
+    margin-top: -4.5px;
+    text-align: right;
+    font-family: 'ONE-Mobile-Title';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    color: rgba(255,255,255,1);
+  }
+  #n_________________________AVIA {
+  float: right;
+    top: 30px;
+    position: relative;
+    overflow: visible;
+    width: 600px;
+    height: 373px;
+    line-height: 28px;
+    margin-top: -2.5px;
+    text-align: right;
+    font-family: 'SUIT-Medium';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    color: rgba(255,255,255,1);
+  }
+  
+  #n_40 {
+    position: relative;
+    width: 100%;
+    top: -300px;
+    z-index: -100px;
+    margin: 0 auto;
+    overflow: visible;
+  }
+  #n_40_ba {
+    mix-blend-mode: difference;
+    position: relative;
+    float: right;
+    width: 1000px;
+    top:-50px;
+    height: auto;
+    left:300px;
+  
+  }
+  #vid{
+    height: 1500px;
+    width: 720px;
+    position: relative;
+    top:-700px;
+    float: right;
+    overflow: hidden;
+  }
+  #Comp_3 {
+    fill: transparent;
+  }
+  .Comp_3 {
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: absolute;
+    width: 1920px;
+    height: 1078px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+  }
+  #n_21_bc {
+    fill: rgba(255,255,255,1);
+  }
+  .n_21_bc {
+    mix-blend-mode: difference;
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 1078px;
+    left: 0px;
+    top: 0px;
+  }
+  #n_44 {
+    position: relative;
+    width: 674px;
+    height: 597px;
+    overflow: visible;
+  }
+  #Third{
+    position: relative;
+    width: 1375px;
+    height: 1000px;
+    top:1300px;
+    margin:0 auto;
+  }
+  #AVIAN___After_Effect_Premiere_ {
+    left: 0px;
+    top:50px;
+    position: relative;
+    overflow: visible;
+    width: 670px;
+    height: 373px;
+    line-height: 33px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: 'SUIT-Medium';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    color: rgba(255,255,255,1);
+  }
+  #n___ {
+    position: relative;
+    overflow: visible;
+    width: 662px;
+    white-space: nowrap;
+    line-height: 70px;
+    margin-top: -4.5px;
+    text-align: left;
+    font-family: 'ONE-Mobile-Title';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    color: rgba(255,255,255,1);
+  }
+  #n_45 {
+    position: relative;
+    width: 1375px;
+    height: 782.296px;
+    top: 1358px;
+    overflow: visible;
+    margin: 0 auto;
+  }
+  #n_36 {
+    position: relative;
+    width: 200%;
+    height: 100%;
+    left: -840px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.049);
+  }
+  .slider {
+    position: absolute;
+    width: 1375px;
+    height: 645.296px;
+    left: 0px;
+    top: 120px;
+    overflow: hidden;
+  }
+}
+@media screen and(max-width:1750px) {
+  
 }

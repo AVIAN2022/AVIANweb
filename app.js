@@ -11,7 +11,7 @@ const controller = new ScrollMagic.Controller();
 //Scenes
 let scene = new ScrollMagic
     .Scene(
-        {duration: 7000, triggerElement: intro, triggerHook: 0}
+        {duration: 5000, triggerElement: intro, triggerHook: 0}
     )
     .setPin(intro)
     .addTo(controller);
@@ -117,7 +117,7 @@ function leftgo(){
     innerSlider.style.left = '0px';
 }
 function rightgo(){
-    innerSlider.style.left = '-1420px';
+    innerSlider.style.left = '-1800px';
 }
 function checkboundary() {
     let outer = slider.getBoundingClientRect();
