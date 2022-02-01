@@ -6,6 +6,7 @@
 
 body {
   font-family: sans-serif;
+  scrollbar-width: none;
 }
 
 .intro {
@@ -105,8 +106,17 @@ spacer{
     background-size: 100% var(--bg-height);
   }
 }
-
-
+canvas {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100vw;
+  max-height: 100vh;
+}
+::-webkit-scrollbar {
+  display: none; 
+}
 a{
   color: rgba(255, 255, 255, 0.555);
 }
@@ -186,9 +196,6 @@ canvas {
 body{
   -ms-overflow-style: none; 
   }
-::-webkit-scrollbar {
-  display: none; 
-}
 #n_23 {
   fill: rgba(0,0,0,1);
 }
@@ -767,6 +774,7 @@ button{
 
 #n_36 {
   position: relative;
+  
   width: 200%;
   height: 100%;
   left: 0px;
@@ -774,6 +782,7 @@ button{
   background-color: rgba(0, 0, 0, 0.049);
 }
 .slider {
+  scrollbar-width: none;
   position: absolute;
   width: 684px;
   height: 645.296px;
@@ -1539,6 +1548,7 @@ display: none;
     background-color: rgba(0, 0, 0, 0.049);
   }
   .slider {
+    scrollbar-width: none;
     position: relative;
     width: 100%;
     height: 340px;
@@ -2302,6 +2312,7 @@ height:154.68px;
     background-color: rgba(0, 0, 0, 0.049);
   }
   .slider {
+    scrollbar-width: none;
     position: absolute;
     width: 1375px;
     height: 645.296px;

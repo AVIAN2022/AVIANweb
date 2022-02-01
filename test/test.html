@@ -1,0 +1,73 @@
+<canvas id="airpods"></canvas>
+<div style="width: 100%; height: 1000px; background-color: white;"></div>
+<style>
+  html {
+  height: 100vh;
+}
+
+body {
+  height: 500vh;
+  background: #000;
+}
+
+canvas {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100vw;
+  max-height: 100vh;
+}
+</style>
+<script>
+  (function(){
+  "use strict";
+  
+  const html = document.documentElement;
+  const canvas = {
+    'element' : document.getElementById("airpods"),
+    'width' : 1158,
+    'height' : 770,
+    'frameCount': 148
+  }
+  const context = canvas.element.getContext("2d");
+  const canvasImage = new Image();
+
+  const currentFrame = index => (
+    `https://www.apple.com/105/media/us/airpods-pro/2019/1299e2f5_9206_4470_b28e_08307a42f19b/anim/sequence/large/01-hero-lightpass/${index.toString().padStart(4, '0')}.jpg`
+  )
+
+  const preloadImages = () => {
+    for (let i = 1; i < canvas.frameCount; i++) {
+      const img = new Image();
+      img.src = currentFrame(i);
+    }
+  };
+
+  const updateImage = index => {
+    canvasImage.src = currentFrame(index);
+    context.drawImage(canvasImage, 0, 0);
+  }
+
+  window.addEventListener('DOMContentLoaded', () => {
+    canvas.element.width = canvas.width;
+    canvas.element.height = canvas.height;
+    canvasImage.src = currentFrame(1); 
+    canvasImage.onload=function(){
+      context.drawImage(canvasImage, 0, 0);
+    }
+    preloadImages();
+  });
+
+  window.addEventListener('scroll', () => {  
+    const scrollTop = html.scrollTop;
+    const maxScrollTop = html.scrollHeight - window.innerHeight;
+    const scrollFraction = scrollTop / maxScrollTop;
+    const frameIndex = Math.min(
+      canvas.frameCount - 1,
+      Math.ceil(scrollFraction * canvas.frameCount)
+    );
+    requestAnimationFrame(() => updateImage(frameIndex + 1));
+  });
+})();
+</script>
