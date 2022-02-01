@@ -407,7 +407,7 @@ body{
 }
 #n_____AVI__an___AVIAN____AVIAN {
   left: 0px;
-  top: 500px;
+  top: 40px;
   position: relative;
   overflow: visible;
   width: 670px;
@@ -421,6 +421,7 @@ body{
   font-size: 19px;
   color: rgba(255,255,255,1);
 }
+
 #n_15 {
   fill: rgba(0,0,0,1);
   stroke: rgba(112,112,112,1);
@@ -435,7 +436,7 @@ body{
   overflow: visible;
   width: 670px;
   height: 443px;
-  top:-330px;
+  top:0px;
   margin: 0 auto;
   clear: both;
 }
@@ -653,11 +654,17 @@ button{
 #n_40_ba {
   mix-blend-mode: difference;
   position: relative;
-  width: 1080px;
-  left:-100px;
-  top:-300px;
+  width: 800px;
   height: auto;
   margin:0 auto;
+  top:-50px;
+  left:-80px;
+}
+#vid{
+  position: relative;
+  margin:0 auto;
+  width: 680px;
+  height: 300px;
 }
 #Comp_3 {
   fill: transparent;
@@ -756,7 +763,7 @@ button{
   font-family: 'ONE-Mobile-Title';
   font-style: normal;
   font-weight: bold;
-  font-size: 29px;
+  font-size: 60px;
   color: rgba(255,255,255,1);
 }
 
@@ -776,6 +783,9 @@ button{
   top: 120px;
   overflow-x: scroll;
   overflow-y: hidden;
+}
+#phonelist{
+  display: none;
 }
 #n_34 {
   position: absolute;
@@ -972,9 +982,9 @@ button{
   fill: white;
   background-color: white;
   width: 100%;
-  height: 1280px;
-  top:6520px;
-  position: absolute;
+  height: 1300px;
+  top:2000px;
+  position: relative;
 }
 #Last{
   width: 680px;
@@ -1188,6 +1198,791 @@ text-decoration : none;
 
 
 
+@media screen and (max-width:700px) {
+  #n_33 {
+    position: relative;
+    width: 90%;
+    height: 945.484px;
+    left: 0px;
+    top: 0px;
+    margin: 0 auto;
+    overflow: visible;
+  }
+  #First{
+    width: 370px;
+    height: 800px;
+    position:relative;
+    top:500px;
+    margin: 0 auto;
+  }
+  #n_____ {
+    top: 143.742px;
+    position: relative;
+    overflow: visible;
+    width: 370px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: 'ONE-Mobile-Title';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(255,255,255,1);
+    text-transform: uppercase;
+  }
+  #scrollable{
+    position: absolute;
+    
+    height: 400.474px;
+    width: 100%;
+    top: 250px;
+    left: 0px;
+    overflow-x: scroll;
+  }
+  #n_24 {
+    position: absolute;
+    height: 400.474px;
+    width: 740px;
+    top: 250px;
+    left: 0px;
+  }
+  #n_26 {
+    position: absolute;
+    width: 350px;
+    height: 760.484px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+  }
+  #n_19 {
+    position: absolute;
+    width: 360px;
+    height: 820.484px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+  }
+  button{
+    width: 360px;
+    height: 820.484px;
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0px);
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+  }
+  #AVIan {
+    opacity: 0.6;
+    position: absolute;
+    width: 360px;
+    height: 866.483px;
+    left: 0px;
+    top: -300px;
+    overflow: visible;
+  }
+  #n_-_ {
+    position: relative;
+    width: 360px;
+    height: 820.473px;
+    left: 0px;
+    top: -400px;
+    overflow: hidden;
+  }
+  #n_21_ {
+    position: relative;
+    width: 350px;
+    height: 760.484px;
+    top: 0px;
+    left:360px;
+    overflow: hidden;
+  }
+  #n_1 {
+    fill: transparent;
+    stroke: rgba(255,255,255,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+  }
+  .n_1 {
+    overflow: visible;
+    position: relative;
+    width: 370px;
+    height: 0px;
+    top: 430px;
+    margin:0 auto;
+    left:1px;
+    transform: matrix(1,0,0,1,0,0);
+  }
+  #n_42 {
+    position: relative;
+    width: 180px;
+    height: 138px;
+    top:420px;
+    overflow: visible;
+  }
+  #pngwingcom {
+    mix-blend-mode: difference;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+  #kakaotalk_black_logo_icon_1471 {
+    position: relative;
+    float:right;
+    width: 80px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+  #buttonupper{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+  }
+  #n_41 {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    left: 0px;
+    float:right;
+    overflow: visible;
+  }  
+  #First{
+    width: 90%;
+    height: 800px;
+    position:relative;
+    top:500px;
+    margin: 0 auto;
+  }
+  .Second{
+    position: relative;
+  width: 90%;
+  height: 1000px;
+  top: 800px;
+  margin: 0 auto;
+  }
+  .second{
+    display: inline-block;
+    position: relative;
+    overflow: visible;
+    z-index:100;
+    width: 100%;
+    height: 443px;
+    float: right;
+    clear: both;
+  }
+  #n_40 {
+    position: relative;
+    width: 150%;
+    top:-100px;
+    z-index: -100px;
+    margin: 0 auto;
+    overflow: visible;
+  }
+  #n____ {
+    float: right;
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 10vw;
+    margin-top: -4.5px;
+    text-align: left;
+    font-family: 'ONE-Mobile-Title';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10vw;
+    color: rgba(255,255,255,1);
+  }
+  #n_________________________AVIA {
+  float: right;
+  top:20px;
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    height: 373px;
+    line-height: 28px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: 'SUIT-ExtraLight';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(255,255,255,1);
+  }
+  #AVIAN_2022___ {
+display: none;
+  }
+  #n_____AVI__an___AVIAN____AVIAN {
+    left: 0px;
+    top: 0px;
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    height: 373px;
+    line-height: 28px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: 'SUIT-ExtraLight';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(255,255,255,1);
+  }
+  #phonetext{
+    top: 0px;
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 10vw;
+    margin-top: -6.5px;
+    text-align: left;
+    font-family: 'ONE-Mobile-Title';
+    font-style: normal;
+    font-size: 10vw;
+    color: rgba(255,255,255,1);
+  }
+  #n_15 {
+    fill: rgba(0,0,0,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+  }
+  .n_15 {
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    height: 300px;
+    top:0px;
+  }
+  #Third{
+    position: relative;
+    width: 90%;
+    height: 1000px;
+    top:1300px;
+    margin:0 auto;
+  }
+  #n_44 {
+    position: relative;
+    width: 100%;
+    height: 597px;
+    overflow: visible;
+  }
+  #n_40_ba {
+    mix-blend-mode: difference;
+    position: relative;
+    width: 100%;
+    height: auto;
+    top:-10px;
+    left:0px;
+  }
+  #vid{
+    height: 30vh;
+    width: 130%;
+    position: relative;
+    left:-25%;
+    overflow: hidden;
+  }
+  #AVIAN___After_Effect_Premiere_ {
+    left: 0px;
+    top:20px;
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    height: 373px;
+    line-height: 28px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: 'SUIT-Medium';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(255,255,255,1);
+  }
+  #n___ {
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 10vw;
+    margin-top: -4.5px;
+    text-align: left;
+    font-family: 'ONE-Mobile-Title';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10vw;
+    color: rgba(255,255,255,1);
+  }
+  #n_45 {
+    position: relative;
+    width: 90%;
+    height: 782.296px;
+    top: 1358px;
+    overflow: visible;
+    margin: 0 auto;
+  }
+  #n_36 {
+    position: relative;
+    width: 200%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.049);
+  }
+  .slider {
+    position: relative;
+    width: 100%;
+    height: 340px;
+    left: 0px;
+    top: 120px;
+    overflow:scroll;
+  }
+
+  #n_31 {
+    position: absolute;
+    width: 515px;
+    height: 117px;
+    left: 0%;
+    top: 0px;
+    overflow: visible;
+  }
+  #avian_2021_2021_ {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 516px;
+    white-space: nowrap;
+    line-height: 10vw;
+    margin-top: -20.5px;
+    text-align: left;
+    font-family: 'ONE-Mobile-Title';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10vw;
+    color: rgba(255,255,255,1);
+  }
+  #n_36{
+    display: none;
+  }
+  #phonelist{
+    display: block;
+    position: relative;
+    top:0px;
+    left:0px;
+    width: 1500px;
+    height: 315px;
+  }
+  #n_35 {
+    position: relative;
+    width: 1380px;
+    height: 156px;
+    left: 0px;
+    overflow: visible;
+    top: -305.358px;
+  }
+  #n_34 {
+    position: relative;
+    width: 1380px;
+    height: 156px;
+    left: 140px;
+    top: 0px;
+    overflow: visible;
+  }
+  #n_16 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+  }
+  .n_16 {
+    position: relative;
+    overflow: visible;
+width:275px;
+height:154.68px;
+    left: 840px;
+  }
+  #n_5_bl {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+  }
+  .n_5_bl {
+    position: absolute;
+    overflow: visible;
+    width: 275px;
+    height: 154.68px;
+    left: 1120px;
+  }
+  #n_17 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+  }
+  .n_17 {
+    position: relative;
+    overflow: visible;
+width:275px;
+height:154.68px;
+    left: 0px;
+    top: -154.68px;
+  }
+  #n_18 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+  }
+  .n_18 {
+    position: relative;
+    overflow: visible;
+width:275px;
+height:154.68px;
+left:280px;
+top:-309px;
+  }
+  #n_19_bp {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+  }
+  .n_19_bp {
+    position: relative;
+    overflow: visible;
+width:275px;
+height:154.68px;
+top:-463.68px;
+left:560px;
+  }
+  #n_5_br {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+  }
+  .n_5_br {
+    position: relative;
+    overflow: visible;
+width:275px;
+height:154.68px;
+    left:560px;
+    top: 309px;
+  }
+  #n_16_bs {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+  }
+  .n_16_bs {
+    position: relative;
+    overflow: visible;
+width:275px;
+height:154.68px;
+    left: 840px;
+    top: 154.68px;
+  }
+  #n_17_bt {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+  }
+  .n_17_bt {
+    position: relative;
+    overflow: visible;
+width:275px;
+height:154.68px;
+    left: 0px;
+    top: 0px;
+  }
+  #n_18_bu {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+  }
+  .n_18_bu {
+    position: relative;
+    overflow: visible;
+width:275px;
+height:154.68px;
+    left: 280px;
+    top: -154.68px;
+  }
+  #n_19_bv {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+  }
+  .n_19_bv {
+    position: relative;
+    overflow: visible;
+width:275px;
+height:154.68px;
+    left: 1120px;
+    top: -309px;
+  }
+  #n_48 {
+    display: none;
+  }
+  #endbutton{
+    fill: white;
+    background-color: white;
+    width: 100%;
+    height: 1300px;
+    top:1400px;
+    position: relative;
+  }
+  #Last{
+    width: 90%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+  }
+  #n_46 {
+    
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    float: right;
+    top: 50px;
+    overflow: hidden;
+  }
+  #n_47 {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    top: 60px;
+    margin: 0;
+  }
+
+  #n_-_b {
+    mix-blend-mode: difference;
+    position: relative;
+    width: 812px;
+    height: 712px;
+    float: right;
+    left: 1px;
+    top: 200px;
+    overflow: visible;
+  }
+  
+  #n__2 {
+    mix-blend-mode: difference;
+    position: absolute;
+    width: 812px;
+    height: 710px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+  .button_{
+    width: 100%;
+    height: 710px;
+    overflow: hidden;
+  }
+  #buttonunder{
+    width: 100%;
+    height: 720px;
+    overflow: hidden;
+    text-decoration-line : none;
+  }
+  #AVIAN_2022 {
+    display: none;
+  }
+  
+  #n__ {
+    display: none;
+  }
+  #AVIAN__b {
+    filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
+    text-decoration-line : none;
+  text-decoration : none;
+    position: relative;
+    float:left;
+    overflow: visible;
+    width: 146px;
+    white-space: nowrap;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-left: 15px;
+    text-align: left;
+    font-family: 'GmarketSansBold';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(255,255,255,1);
+  }
+  #n_ {
+    filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
+    text-decoration-line : none;
+  text-decoration : none;
+    position: relative;
+    float:left;
+    overflow: visible;
+    top:0px;
+    left:0px;
+    width: 146px;
+    white-space: nowrap;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-left: 15px;
+    text-align: left;
+    font-family: 'GmarketSansBold';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(255,255,255,1);
+  }
+  #aviangbshsgmailcom {
+    top:90vh;
+    position: relative;
+    overflow: visible;
+    width: 899px;
+    white-space: nowrap;
+    text-align: left;
+    line-height: 40px;;
+    font-family: 'GmarketSansLight';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgba(0,0,0,1);
+  }
+  #n_2_010-2940-9430 {
+    position: relative;
+    overflow: visible;
+    width: 707px;
+    white-space: nowrap;
+    text-align: left;
+    font-family:'GmarketSansLight';
+    font-size: 25px;
+    color: rgba(0,0,0,1);
+  }
+  .underline {
+    background-image: linear-gradient(transparent calc(100% - 3px), rgba(0, 0, 0, 0.015) 1px);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size 0.8s;
+    color: #000;
+    cursor: pointer;
+  
+  }  
+  .underline.gray {
+    background-image: linear-gradient(transparent 60%, #cccccc 40%);
+  }
+  .underline:hover {
+    background-size: 100% 100%;
+  }
+  .link{
+    text-decoration-line: none;
+  }
+  #n_2_bz {
+    fill: transparent;
+    stroke: rgba(0,0,0,1);
+    stroke-width: 0.2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+  }
+  .n_2_bz {
+    overflow: visible;
+    position: relative;
+    width: 100%;
+    height: 1px;
+    transform: matrix(1,0,0,1,0,0);
+  }
+  #copyright{
+    width:100%;
+    height: 100px;
+    background-color: rgb(38, 38, 38);
+    position: relative;
+    float:inline-end;
+  }
+  #copyline{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .copyright{
+    left: 0px;
+    top:-6px;
+    position: relative;
+    overflow: visible;
+    width: 670px;
+    height: 373px;
+    line-height: 10px;
+    text-align: left;
+    font-family: 'SUIT-ExtraLight';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+  }
+  #AVIANimg{
+    height: 35px;
+    position: relative;
+    top:5px;
+  }
+  #n_1920__2 {
+    position: absolute;
+    width: 100%;
+    height: 7305px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    --web-view-name: 웹 1920 – 2;
+    --web-view-id: n_1920__2;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+  }
+}
 
 @media screen and (min-width:1500px) {
   #n_____ {
@@ -1328,7 +2123,6 @@ text-decoration : none;
     overflow: visible;
     width: 670px;
     height: 443px;
-    top:-330px;
     float: right;
   }
   #First{
@@ -1398,18 +2192,14 @@ text-decoration : none;
   #n_40_ba {
     mix-blend-mode: difference;
     position: relative;
-    float: right;
     width: 1000px;
-    top:-50px;
     height: auto;
-    left:300px;
-  
+    top:10px;
   }
   #vid{
     height: 1500px;
     width: 720px;
     position: relative;
-    top:-700px;
     float: right;
     overflow: hidden;
   }
@@ -1677,7 +2467,4 @@ text-decoration : none;
     height: 100%;
     margin: 0 auto;
   }
-}
-@media screen and(max-width:1750px) {
-  
 }
