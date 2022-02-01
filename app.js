@@ -1,4 +1,5 @@
-const intro = document.querySelector(".intro");
+if (matchMedia("screen and (min-width: 1500px)").matches) {
+    const intro = document.querySelector(".intro");
 const video = intro.querySelector("video");
 const text = intro.querySelector("h1");
 //END SECTION
@@ -46,6 +47,8 @@ setInterval(() => {
         observer.observe(mark);
     });
 })(document);
+}
+
 
 ScrollReveal().reveal('.n_15_', {
     distance: '40%',
