@@ -9,6 +9,7 @@ body {
 }
 
 .intro {
+  width: 100%;
   height: 100vh;
 }
 
@@ -73,6 +74,12 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'SUIT-ExtraLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-ExtraLight.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 .notosanskr * { 
@@ -101,10 +108,7 @@ spacer{
   }
 }
 
-.button_{
-  width: 812px;
-  height: 710px;
-}
+
 a{
   color: rgba(255, 255, 255, 0.555);
 }
@@ -148,9 +152,6 @@ a{
   color: rgb(255, 255, 255);
 }
 
-.intro {
-  height: 100vh;
-}
 section{
   height: 0vh;
 }
@@ -176,7 +177,7 @@ canvas {
 #n_1920__2 {
   position: absolute;
   width: 100%;
-  height: 7000px;
+  height: 7895px;
   background-color: rgb(0, 0, 0);
   overflow: hidden;
   --web-view-name: 웹 1920 – 2;
@@ -517,10 +518,7 @@ button{
   transition-property: transform;
   transition-timing-function: ease-out;
 }
-#buttonunder{
-  width: 812px;
-  height: 710px;
-}
+
 #buttonupper{
   width: 100px;
   height: 100px;
@@ -733,7 +731,7 @@ button{
   position: relative;
   width: 684px;
   height: 782.296px;
-  top: 1358px;
+  top: 1500px;
   overflow: visible;
   margin: 0 auto;
 }
@@ -761,11 +759,12 @@ button{
   font-size: 29px;
   color: rgba(255,255,255,1);
 }
+
 #n_36 {
   position: relative;
   width: 200%;
   height: 100%;
-  left: -840px;
+  left: 0px;
   top: 0px;
   background-color: rgba(0, 0, 0, 0.049);
 }
@@ -776,6 +775,7 @@ button{
   left: 0px;
   top: 120px;
   overflow-x: scroll;
+  overflow-y: hidden;
 }
 #n_34 {
   position: absolute;
@@ -870,14 +870,6 @@ button{
   left: 2332px;
   top: 0px;
 }
-#n_35 {
-  position: absolute;
-  width: 2883px;
-  height: 309.938px;
-  left: 0px;
-  top: 335.358px;
-  overflow: visible;
-}
 #n_5_br {
   fill: transparent;
   stroke: rgba(112,112,112,1);
@@ -963,31 +955,187 @@ button{
   left: 2332px;
   top: 0px;
 }
-#aviangbshsgmailcom {
-  left: 140px;
-  top: 6822px;
+#n_35 {
   position: absolute;
+  width: 2883px;
+  height: 309.938px;
+  left: 0px;
+  top: 335.358px;
+  overflow: visible;
+}
+.button_{
+  width: 335px;
+  height: 710px;
+  overflow: hidden;
+}
+#endbutton{
+  fill: white;
+  background-color: white;
+  width: 100%;
+  height: 1280px;
+  top:6520px;
+  position: absolute;
+}
+#Last{
+  width: 680px;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+#n_47 {
+  position: relative;
+  width: 335px;
+  height: 710px;
+  top: 50px;
+  margin: 0;
+  overflow: visible;
+}
+#n_46 {
+  
+  position: relative;
+  width: 335px;
+  height: 710px;
+  float: right;
+  top: 50px;
+  overflow: visible;
+}
+#n_-_b {
+  mix-blend-mode: difference;
+  position: relative;
+  width: 812px;
+  height: 712px;
+  float: right;
+  left: 1px;
+  top: -1px;
+  overflow: visible;
+}
+
+#n__2 {
+  mix-blend-mode: difference;
+  position: absolute;
+  width: 812px;
+  height: 710px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#buttonunder{
+  width: 335px;
+  height: 720px;
+  overflow: hidden;
+  text-decoration-line : none;
+}
+#AVIAN_2022 {
+  filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
+  position: relative;
+  overflow: visible;
+  margin-left:15px;
+  margin-top:3px;
+  width: 586px;
+  white-space: nowrap;
+  line-height: 70px;
+  text-align: left;
+  font-family: 'ONE-Mobile-Title';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgba(255,255,255,1);
+}
+
+#n__ {
+  filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
+  float: right;
+  position: relative;
+  overflow: visible;
+  text-decoration-line : none;
+text-decoration : none;
+  width: 522px;
+  margin-top: 15px;
+  margin-right: 15px;
+  white-space: nowrap;
+  text-align: right;
+  font-family: 'ONE-Mobile-Title';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  color: rgba(255,255,255,1);
+}
+#n_ {
+  position: relative;
+  overflow: visible;
+  text-decoration-line : none;
+text-decoration : none;
+  width: 173px;
+  filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
+  white-space: nowrap;
+  line-height: 10px;
+  margin-left: 15px;
+  text-align: left;
+  font-family: 'SUIT-Medium';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(255,255,255,1);
+}
+#AVIAN__b {
+  filter: drop-shadow(0px 0px 0.5px rgb(0, 0, 0));
+  float: right;
+  text-decoration-line : none;
+text-decoration : none;
+  position: relative;
+  overflow: visible;
+  width: 146px;
+  white-space: nowrap;
+  line-height: 30px;
+  margin-right: 15px;
+  text-align: left;
+  font-family: 'SUIT-Medium';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(255,255,255,1);
+}
+#aviangbshsgmailcom {
+  top:60px;
+  position: relative;
   overflow: visible;
   width: 899px;
   white-space: nowrap;
   text-align: left;
+  line-height: 40px;;
   font-family: 'GmarketSansLight';
   font-style: normal;
   font-weight: lighter;
-  font-size: 50px;
+  font-size: 30px;
   color: rgba(0,0,0,1);
 }
 #n_2_010-2940-9430 {
-  left: 140px;
-  top: 6882px;
-  position: absolute;
+  position: relative;
   overflow: visible;
   width: 707px;
   white-space: nowrap;
   text-align: left;
   font-family:'GmarketSansLight';
-  font-size: 35px;
+  font-size: 25px;
   color: rgba(0,0,0,1);
+}
+.underline {
+  background-image: linear-gradient(transparent calc(100% - 3px), rgba(0, 0, 0, 0.015) 1px);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.8s;
+  color: #000;
+  cursor: pointer;
+
+}  
+.underline.gray {
+  background-image: linear-gradient(transparent 60%, #cccccc 40%);
+}
+.underline:hover {
+  background-size: 100% 100%;
+}
+.link{
+  text-decoration-line: none;
 }
 #n_2_bz {
   fill: transparent;
@@ -1000,144 +1148,46 @@ button{
 }
 .n_2_bz {
   overflow: visible;
-  position: absolute;
-  width: 1650px;
+  position: relative;
+  width: 100%;
   height: 1px;
-  left: 135px;
-  top:7000.5px;
   transform: matrix(1,0,0,1,0,0);
 }
-#Developed_by_AVIAN {
-  left: 140px;
-  top: 7012px;
-  position: absolute;
-  overflow: visible;
-  width: 329px;
-  white-space: nowrap;
-  line-height: 70px;
-  margin-top: -20px;
-  text-align: left;
-  font-family:'GmarketSansLight';
-  font-style: normal;
-  font-weight: lighter;
-  font-size: 20px;
-  color: rgba(0,0,0,1);
+#copyright{
+  width:100%;
+  height: 100px;
+  background-color: rgb(38, 38, 38);
+  position: relative;
+  float:inline-end;
 }
-#Supported_by_UNREVR {
-  left: 1538px;
-  top: 7012px;
-  position: absolute;
-  overflow: visible;
-  width: 369px;
-  white-space: nowrap;
-  line-height: 70px;
-  margin-top: -20px;
-  text-align: left;
-  font-family:'GmarketSansLight';
-  font-style: normal;
-  font-weight: lighter;
-  font-size: 20px;
-  color: rgba(0,0,0,1);
+#copyline{
+  width: 680px;
+  height: 100%;
+  margin: 0 auto;
 }
-#n_47 {
-  position: absolute;
-  width: 812px;
-  height: 710px;
-  left: 140px;
-  top: 6103px;
-  overflow: visible;
-}
-#n_-_b {
-  mix-blend-mode: difference;
-  position: absolute;
-  width: 812px;
-  height: 710px;
+.copyright{
   left: 0px;
-  top: 0px;
+  top:-6px;
+  position: relative;
   overflow: visible;
-}
-#AVIAN_2022 {
-  filter: drop-shadow(0px 3px 20px rgba(0, 0, 0, 0.38));
-  left: 30px;
-  top: 20px;
-  position: absolute;
-  overflow: visible;
-  width: 586px;
-  white-space: nowrap;
-  line-height: 70px;
-  margin-top: -5px;
+  width: 670px;
+  height: 373px;
+  line-height: 10px;
   text-align: left;
-  font-family: 'ONE-Mobile-Title';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 60px;
-  color: rgba(255,255,255,1);
-}
-#n_ {
-  left: 30px;
-  top: 85px;
-  position: absolute;
-  overflow: visible;
-  width: 173px;
-  white-space: nowrap;
-  line-height: 70px;
-  margin-top: -20px;
-  text-align: left;
-  font-family: 'SUIT-Medium' black;
+  font-family: 'SUIT-ExtraLight';
   font-style: normal;
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 14px;
   color: rgba(255,255,255,1);
 }
-#n_46 {
-  position: absolute;
-  width: 812px;
-  height: 710px;
-  left: 968px;
-  top: 6103px;
-  overflow: visible;
+#AVIANimg{
+  height: 35px;
+  position: relative;
+  top:5px;
 }
-#n__2 {
-  mix-blend-mode: difference;
-  position: absolute;
-  width: 812px;
-  height: 710px;
-  left: 0px;
-  top: 0px;
-  overflow: visible;
-}
-#n__ {
-  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.88));
-  left: 265px;
-  top: 621px;
-  position: absolute;
-  overflow: visible;
-  width: 522px;
-  white-space: nowrap;
-  text-align: right;
-  font-family: 'ONE-Mobile-Title';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 70px;
-  color: rgba(255,255,255,1);
-}
-#AVIAN__b {
-  filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.812));
-  left: 643px;
-  top: 585px;
-  position: absolute;
-  overflow: visible;
-  width: 199px;
-  white-space: nowrap;
-  line-height: 70px;
-  margin-top: -20px;
-  text-align: left;
-  font-family: 'SUIT-Medium' black;
-  font-style: normal;
-  font-weight: lighter;
-  font-size: 20px;
-  color: rgba(255,255,255,1);
-}
+
+
+
 
 @media screen and (min-width:1500px) {
   #n_____ {
@@ -1443,7 +1493,7 @@ button{
     position: relative;
     width: 200%;
     height: 100%;
-    left: -840px;
+    left: 0px;
     top: 0px;
     background-color: rgba(0, 0, 0, 0.049);
   }
@@ -1453,7 +1503,179 @@ button{
     height: 645.296px;
     left: 0px;
     top: 120px;
-    overflow-x:scroll;
+    overflow:scroll;
+  }
+  .button_{
+    width: 680px;
+    height: 710px;
+    overflow: hidden;
+  }
+  #endbutton{
+    fill: white;
+    background-color: white;
+    width: 100%;
+    height: 980px;
+    top:6220px;
+    position: absolute;
+  }
+  #Last{
+    width: 1375px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+  }
+  #n_47 {
+    position: relative;
+    width: 680px;
+    height: 710px;
+    top: 50px;
+    margin: 0;
+    overflow: visible;
+  }
+  #n_46 {
+    
+    position: relative;
+    width: 680px;
+    height: 710px;
+    float: right;
+    top: 50px;
+    overflow: visible;
+  }
+  #n_-_b {
+    mix-blend-mode: difference;
+    position: relative;
+    width: 812px;
+    height: 712px;
+    float: right;
+    left: 1px;
+    top: -1px;
+    overflow: visible;
+  }
+  
+  #n__2 {
+    mix-blend-mode: difference;
+    position: absolute;
+    width: 812px;
+    height: 710px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+  #buttonunder{
+    width: 680px;
+    height: 720px;
+    overflow: hidden;
+    text-decoration-line : none;
+  }
+  #AVIAN_2022 {
+    filter: drop-shadow(0px 0px 0.5px rgb(0, 0, 0));
+    position: relative;
+    overflow: visible;
+    margin-left:30px;
+    margin-top:20px;
+    width: 586px;
+    white-space: nowrap;
+    line-height: 70px;
+    text-align: left;
+    font-family: 'ONE-Mobile-Title';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    color: rgba(255,255,255,1);
+  }
+  
+  #n__ {
+    filter: drop-shadow(0px 0px 0.5px rgb(0, 0, 0));
+    float: right;
+    position: relative;
+    overflow: visible;
+    text-decoration-line : none;
+  text-decoration : none;
+    width: 522px;
+    margin-top: 20px;
+    margin-right: 30px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: 'ONE-Mobile-Title';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(255,255,255,1);
+  }
+  #n_ {
+    position: relative;
+    overflow: visible;
+    text-decoration-line : none;
+  text-decoration : none;
+    width: 173px;
+    filter: drop-shadow(0px 0px 0.5px rgb(0, 0, 0));
+    white-space: nowrap;
+    line-height: 30px;
+    margin-left: 30px;
+    text-align: left;
+    font-family: 'SUIT-Medium';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+  }
+  #AVIAN__b {
+    filter: drop-shadow(0px 0px 0.5px rgb(0, 0, 0));
+    float: right;
+    text-decoration-line : none;
+  text-decoration : none;
+    position: relative;
+    overflow: visible;
+    width: 146px;
+    white-space: nowrap;
+    line-height: 30px;
+    margin-right: 30px;
+    text-align: left;
+    font-family: 'SUIT-Medium';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+  }
+  #aviangbshsgmailcom {
+    top:60px;
+    position: relative;
+    overflow: visible;
+    width: 899px;
+    white-space: nowrap;
+    text-align: left;
+    line-height: 40px;;
+    font-family: 'GmarketSansLight';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgba(0,0,0,1);
+  }
+  #n_2_010-2940-9430 {
+    position: relative;
+    overflow: visible;
+    width: 707px;
+    white-space: nowrap;
+    text-align: left;
+    font-family:'GmarketSansLight';
+    font-size: 25px;
+    color: rgba(0,0,0,1);
+  }
+  #n_1920__2 {
+    position: absolute;
+    width: 100%;
+    height: 7285px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    --web-view-name: 웹 1920 – 2;
+    --web-view-id: n_1920__2;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+  }
+  #copyline{
+    width: 1375px;
+    height: 100%;
+    margin: 0 auto;
   }
 }
 @media screen and(max-width:1750px) {
