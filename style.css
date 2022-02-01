@@ -775,7 +775,7 @@ button{
   height: 645.296px;
   left: 0px;
   top: 120px;
-  overflow: hidden;
+  overflow-x: scroll;
 }
 #n_34 {
   position: absolute;
@@ -1453,7 +1453,7 @@ button{
     height: 645.296px;
     left: 0px;
     top: 120px;
-    overflow: hidden;
+    overflow-x:scroll;
   }
 }
 @media screen and(max-width:1750px) {
