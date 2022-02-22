@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>공방</title>
+        <title>이스터에그</title>
         <style>
             body {
                 margin: 0;
@@ -19,6 +19,10 @@
         <script src="node_modules\three\examples\js\controls\OrbitControls.js"></script>
         <script src="node_modules\three\examples\js\effects\AsciiEffect.js"></script>
         <script>
+            			let mouseX = 0, mouseY = 0;
+
+let windowHalfX = window.innerWidth / 2;
+let windowHalfY = window.innerHeight / 2;
             var scene = new THREE.Scene();
             var camera = new THREE.PerspectiveCamera(
                 45,
@@ -38,10 +42,10 @@
             var spotLight = new THREE.SpotLight(0xFFFFFF);
             spotLight
                 .position
-                .set(-50, 100, 180);
+                .set(100, 200, 300);
             scene.add(cube);
             scene.add(spotLight);
-            const effect = new THREE.AsciiEffect( renderer, ' .IVAN', { invert: true } );
+            const effect = new THREE.AsciiEffect( renderer, ' `.^;/IVAN', { invert: true } );
 				effect.setSize( window.innerWidth, window.innerHeight );
 				effect.domElement.style.color = 'white';
 				effect.domElement.style.backgroundColor = 'black';
@@ -59,16 +63,17 @@
             controls.enablePan = false;
             controls.enableDamping = true;
             controls.update();
-
             camera
                 .position
                 .set(0, 0, 150);
-            camera.lookAt(scene.position)
             document
                 .body
                 .appendChild(effect.domElement);
             renderer.render(scene, camera);
             function animate() {
+
+				const time = Date.now() * 0.0005;
+
                 requestAnimationFrame(animate);
                 controls.update();
                 effect.render(scene, camera);
