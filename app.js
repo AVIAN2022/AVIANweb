@@ -97,6 +97,30 @@ ScrollReveal().reveal('.innerslider', {
     origin: 'bottom',
     duraiton: 500
 });
+
+$.fn.hasScrollBar = function() {
+  return (this.prop("scrollWidth") == 0 && this.prop("clientWidth") == 0)
+          || (this.prop("scrollWidth") > this.prop("clientWidth"));
+}; // 좌우 스크롤이 있는지 없는지 여부 검사
+function wheel(name){
+$(name).on('mousewheel',function(e){
+  var hasScroll = $(this).hasScrollBar();
+  if(!hasScroll){ //스크롤이 없으면 그냥 일반 스크롤
+  }else{ //있으면 아래 스크롤 받는값을 없애고 좌우스크롤
+      e.preventDefault(); 
+      var wheelDelta = e.originalEvent.wheelDelta;
+      if(wheelDelta > 0){
+          $(this).scrollLeft(-wheelDelta + $(this).scrollLeft());
+      }else{
+          $(this).scrollLeft(-wheelDelta + $(this).scrollLeft());
+      }
+  }
+});
+}
+$(function(){
+  wheel('.slider');
+});
+
 function middlego(){}
 function leftgo(){}
 function rightgo(){}

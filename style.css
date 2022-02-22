@@ -787,7 +787,7 @@ button{
 #n_36 {
   position: relative;
   
-  width: 200%;
+  width: 3470px;
   height: 100%;
   left: 0px;
   top: 0px;
@@ -797,39 +797,20 @@ button{
   scrollbar-width: none;
   position: absolute;
   width: 684px;
-  height: 645.296px;
+  height: 685.296px;
   left: 0px;
   top: 120px;
+  z-index: 100;
   overflow-x: scroll;
   overflow-y: hidden;
 }
 #phonelist{
   display: none;
 }
-#n_34 {
-  position: absolute;
-  width: 2883px;
-  height: 309.938px;
-  left: 304px;
-  top: 0px;
-  overflow: visible;
-}
-#n_5_bl {
-  fill: transparent;
-  stroke: rgba(112,112,112,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.n_5_bl {
-  position: absolute;
-  overflow: visible;
-  width: 551px;
-  height: 309.938px;
-  left: 1166px;
-  top: 0px;
+#blank{
+  position: relative;
+  left:270px;
+  width: 2800px;
 }
 #n_16 {
   fill: transparent;
@@ -882,116 +863,6 @@ button{
   left: 583px;
   top: 0px;
 }
-#n_19_bp {
-  fill: transparent;
-  stroke: rgba(112,112,112,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.n_19_bp {
-  position: absolute;
-  overflow: visible;
-  width: 551px;
-  height: 309.938px;
-  left: 2332px;
-  top: 0px;
-}
-#n_5_br {
-  fill: transparent;
-  stroke: rgba(112,112,112,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.n_5_br {
-  position: absolute;
-  overflow: visible;
-  width: 551px;
-  height: 309.938px;
-  left: 1166px;
-  top: 0px;
-}
-#n_16_bs {
-  fill: transparent;
-  stroke: rgba(112,112,112,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.n_16_bs {
-  position: absolute;
-  overflow: visible;
-  width: 551px;
-  height: 309.938px;
-  left: 1749px;
-  top: 0px;
-}
-#n_17_bt {
-  fill: transparent;
-  stroke: rgba(112,112,112,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.n_17_bt {
-  position: absolute;
-  overflow: visible;
-  width: 551px;
-  height: 309.938px;
-  left: 0px;
-  top: 0px;
-}
-#n_18_bu {
-  fill: transparent;
-  stroke: rgba(112,112,112,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.n_18_bu {
-  position: absolute;
-  overflow: visible;
-  width: 551px;
-  height: 309.938px;
-  left: 583px;
-  top: 0px;
-}
-#n_19_bv {
-  fill: transparent;
-  stroke: rgba(112,112,112,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.n_19_bv {
-  position: absolute;
-  overflow: visible;
-  width: 551px;
-  height: 309.938px;
-  left: 2332px;
-  top: 0px;
-}
-#n_35 {
-  position: absolute;
-  width: 2883px;
-  height: 309.938px;
-  left: 0px;
-  top: 335.358px;
-  overflow: visible;
-}
 .button_{
   width: 335px;
   height: 710px;
@@ -1001,7 +872,7 @@ button{
   fill: white;
   background-color: white;
   width: 100%;
-  height: 1300px;
+  height: 1320px;
   top:2000px;
   position: relative;
 }
