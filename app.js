@@ -7,7 +7,7 @@ $(function() {
     const frameCount = 94; //프레임 숫자 교정하세요
 
     const currentFrame = index => (
-        `프레임셋/${index.toString().padStart(4, '0')}.png` //경로 수정 , $구문은 남겨야함.
+        `프레임셋/${index.toString().padStart(4, '0')}.jpeg` //경로 수정 , $구문은 남겨야함.
 
     )
 
