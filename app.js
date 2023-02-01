@@ -45,7 +45,10 @@ $(function() {
             frameCount - 1,
             Math.floor(scrollFraction * frameCount)
         ) % 3;
-
+        console.log((scrollTop - $(".slider").offset().top + window.innerHeight));
+        if (scrollTop - $(".slider").offset().top > -window.innerHeight) {
+            document.querySelector(".slider").scrollLeft = (scrollTop - ($(".slider").offset().top) + window.innerHeight);
+        }
 
         requestAnimationFrame(() => updateImage(frameIndex))
     });
@@ -98,4 +101,7 @@ ScrollReveal().reveal('.innerslider', {
     distance: '100%',
     origin: 'bottom',
     duraiton: 500
+});
+window.addEventListener('scroll', () => {
+
 });

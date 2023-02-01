@@ -822,6 +822,11 @@
         color: rgba(255, 255, 255, 1);
     }
     
+    #innerslide {
+        position: relative;
+        left: 0;
+    }
+    
     #n___ {
         position: relative;
         overflow: visible;
